@@ -1,2 +1,30 @@
-/* font-family: 'Nunito', sans-serif; */
+:root {
+  --default-font: 'Nunito', sans-serif;
+  --default-color: #272142;
+}
 
+body {
+  color: var(--default-color);
+  font-family: var(--default-font);
+}
+
+.hero {
+  background: linear-gradient(180deg, rgba(111, 77, 77, 0.5) 0%, rgba(0, 0, 0, 0.2) 100%), url(/images/bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  text-align: center;
+  font-weight: 700;
+  margin-top: 135px;
+  padding: 40px 0;
+}
+
+.hero h1 {
+  font-size: 72px;
+  line-height: 98px;
+}
+
+.hero h3 {
+  font-size: 24px;
+  line-height: 35px;
+}

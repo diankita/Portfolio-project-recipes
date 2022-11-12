@@ -71,7 +71,7 @@ p {
 }
 
 .about-page, .recipe-page {
-  padding: 100px 50px;
+  padding: 80px 30px;
 }
 .about-page-info {
   padding: 70px 0px;
@@ -127,6 +127,7 @@ p {
   .navigation {
     margin: 10px auto;
   }
+
   h1 {
     font-size: 46px;
     line-height: 50px;

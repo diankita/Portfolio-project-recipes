@@ -70,7 +70,7 @@ p {
   line-height: 38px;
 }
 
-.about-page {
+.about-page, .recipe-page {
   padding: 100px 50px;
 }
 .about-page-info {
@@ -104,6 +104,24 @@ p {
   font-size: 16px;
 }
 
+.recipe-page {
+  max-width: 760px;
+}
+
+.recipe-page h6 {
+  border-bottom: 1px dashed #67D5D2;;
+}
+
+.ingredient p {
+  border-bottom: 1px dashed #67D5D2;
+}
+
+.recipe-step {
+  color: #F65282;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 25px;
+}
 
 @media (max-width:576px) {
   .navigation {

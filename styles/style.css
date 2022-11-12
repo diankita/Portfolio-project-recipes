@@ -8,6 +8,19 @@ body {
   font-family: var(--default-font);
 }
 
+.navigation {
+  margin: 30px;
+  font-weight: 700;
+}
+
+.nav-link {
+  color: var(--default-color);
+}
+#nav-link-active {
+  color: #662EED;
+}
+
+
 .hero {
   background: linear-gradient(180deg, rgba(111, 77, 77, 0.5) 0%, rgba(0, 0, 0, 0.2) 100%), url(/images/bg.png);
   background-repeat: no-repeat;
@@ -15,7 +28,6 @@ body {
   color: white;
   text-align: center;
   font-weight: 700;
-  margin-top: 135px;
   padding: 40px 0;
 }
 

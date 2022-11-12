@@ -9,7 +9,7 @@ body {
 }
 
 .navigation {
-  margin: 30px;
+  margin: 20px auto;
   font-weight: 700;
 }
 
@@ -19,7 +19,6 @@ body {
 #nav-link-active {
   color: #662EED;
 }
-
 
 .hero {
   background: linear-gradient(180deg, rgba(111, 77, 77, 0.5) 0%, rgba(0, 0, 0, 0.2) 100%), url(/images/bg.png);
@@ -48,6 +47,9 @@ body {
 }
 
 @media (max-width:576px) {
+  .navigation {
+    margin: 10px auto;
+  }
   .hero h1 {
     font-size: 46px;
     line-height: 50px;

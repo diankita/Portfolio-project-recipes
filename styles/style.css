@@ -1,6 +1,7 @@
 :root {
   --default-font: 'Nunito', sans-serif;
   --default-color: #272142;
+  --secondary-color: #662EED;
 }
 
 body {
@@ -19,6 +20,18 @@ h2 {
   font-size: 64px;
   line-height: 87px;
   font-weight: 700;
+}
+
+h3 {
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 38px;
+}
+
+h4 {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 35px;
 }
 
 h5 {
@@ -48,7 +61,7 @@ p {
   color: var(--default-color);
 }
 #nav-link-active {
-  color: #662EED;
+  color: var(--secondary-color);
 }
 
 .hero {
@@ -59,18 +72,7 @@ p {
   padding: 40px 0px;
 }
 
-.hero h4 {
-  font-size: 24px;
-  line-height: 35px;
-}
-
-#recipe-gallery h3 {
-  font-weight: 700;
-  font-size: 28px;
-  line-height: 38px;
-}
-
-.about-page, .recipe-page {
+.about-page, .recipe-page, .contact-page {
   padding: 80px 30px;
 }
 .about-page-info {
@@ -121,6 +123,22 @@ p {
   font-weight: 800;
   font-size: 18px;
   line-height: 25px;
+}
+
+.contact-option {
+  color: var(--secondary-color);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25px;
+}
+
+.contact-info span {
+  margin-left: 30px;
+}
+
+.contact-info a {
+  color: var(--default-color);
+  text-decoration: none;
 }
 
 @media (max-width:576px) {

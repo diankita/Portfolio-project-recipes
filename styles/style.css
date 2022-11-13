@@ -66,6 +66,11 @@ i {
   margin: 0px 15px;
 }
 
+footer {
+  background: #F9F7FE;
+  padding: 30px 0px;
+}
+
 .navigation {
   margin: 20px auto;
   font-weight: 700;
@@ -80,11 +85,6 @@ i {
   color: var(--secondary-color);
 }
 
-footer {
-  background: #F9F7FE;
-  padding: 30px 0px;
-}
-
 .hero {
   background: linear-gradient(180deg, rgba(111, 77, 77, 0.5) 0%, rgba(0, 0, 0, 0.2) 100%), url(/images/bg.png);
   background-repeat: no-repeat;
@@ -96,6 +96,7 @@ footer {
 .about-page, .recipe-page, .contact-page {
   padding: 80px 30px;
 }
+
 .about-page-info {
   padding: 70px 0px;
 }

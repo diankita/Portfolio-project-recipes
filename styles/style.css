@@ -52,6 +52,20 @@ p {
   font-weight: 400;
 }
 
+a {
+  color: var(--default-color);
+  text-decoration: none;
+  transition: all 100ms ease-in-out;
+}
+
+a:hover {
+  color: var(--secondary-color);
+}
+
+i {
+  margin: 0px 15px;
+}
+
 .navigation {
   margin: 20px auto;
   font-weight: 700;
@@ -64,6 +78,11 @@ p {
 
 #nav-link-active {
   color: var(--secondary-color);
+}
+
+footer {
+  background: #F9F7FE;
+  padding: 30px 0px;
 }
 
 .hero {
@@ -91,9 +110,7 @@ p {
   font-weight: 700;
 }
 
-.about-page-follow-me i {
-  margin: 15px;
-}
+
 
 .about-page-recipe-section h5 {
   text-align: center;
@@ -138,10 +155,6 @@ p {
   margin-left: 30px;
 }
 
-.contact-info a {
-  color: var(--default-color);
-  text-decoration: none;
-}
 
 @media (max-width:576px) {
   .navigation {
@@ -168,4 +181,13 @@ p {
   .about-page-info h2 {
     font-size: 44px;
   }
+
+  footer {
+    font-size: 12px;
+  }
+
+  footer i {
+    margin: 0px 5px;
+  }
+
 }

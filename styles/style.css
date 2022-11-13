@@ -60,6 +60,7 @@ p {
 .nav-link {
   color: var(--default-color);
 }
+
 #nav-link-active {
   color: var(--secondary-color);
 }

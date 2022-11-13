@@ -59,6 +59,7 @@ p {
 
 .nav-link {
   color: var(--default-color);
+  margin: 0px 10px;
 }
 
 #nav-link-active {
